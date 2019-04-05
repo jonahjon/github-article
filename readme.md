@@ -38,3 +38,22 @@ unset bash_prompt
 ```
 
 
+touch ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
+vi ~/.gitignore
+
+
+Git Ignore
+
+# Keys #
+###########
+*.pem#
+
+# Logs and databases #
+######################
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.Trashes
